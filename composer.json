@@ -1,0 +1,24 @@
+{
+    "name": "khicks/myq-php",
+    "description": "PHP wrapper for Chamberlain MyQ",
+    "type": "library",
+    "homepage": "https://github.com/khicks/MyQ-PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Hicks",
+            "email": "kevin@khicks.net",
+            "homepage": "https://khicks.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyQ\\": "src/"
+        }
+    }
+}
