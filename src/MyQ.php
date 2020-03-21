@@ -11,7 +11,7 @@ final class MyQ {
     private const APPLICATION_ID = "Vj8pQggXLhLy0WHahglCD4N1nAkkXQtGYpq2HrHD7H1nvmbT55KqtN6RSF4ILB/i";
     private const CONTENT_TYPE = "application/json";
     private const CULTURE = "en";
-    private const USER_AGENT = "Chamberlain/3.4.1";
+    //private const USER_AGENT = "Chamberlain/3.4.1";
 
     private const DEVICE_TYPES = [
         1 => "Gateway",
@@ -123,7 +123,7 @@ final class MyQ {
             CURLOPT_FAILONERROR => true,
             CURLOPT_FOLLOWLOCATION => true,
             CURLOPT_FRESH_CONNECT => true,
-            CURLOPT_USERAGENT => self::USER_AGENT,
+            //CURLOPT_USERAGENT => self::USER_AGENT,
             CURLOPT_HTTPHEADER => $this->parseHeaders()
         ]);
 
